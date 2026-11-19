@@ -40,7 +40,7 @@ SmartHire is a full-stack job portal application developed using the MERN Stack 
 
 ## Technologies Used
 
-**Frontend**
+### Frontend
 - React.js
 - Vite
 - JavaScript
@@ -48,7 +48,7 @@ SmartHire is a full-stack job portal application developed using the MERN Stack 
 - CSS3
 - React Router
 
-**Backend**
+### Backend
 - Node.js
 - Express.js
 - MongoDB
@@ -56,7 +56,7 @@ SmartHire is a full-stack job portal application developed using the MERN Stack 
 - JWT Authentication
 - Multer
 
-**Additional Libraries**
+### Additional Libraries
 - bcryptjs
 - pdf-parse
 - Mammoth
@@ -91,7 +91,22 @@ SmartHire/
 │   ├── index.js
 │   └── package.json
 │
-└── .gitignore
+├── screenshots/
+│   ├── 01-home.png
+│   ├── 02-registration.png
+│   ├── 03-login.png
+│   ├── 04-post-job.png
+│   ├── 05-my-applications.png
+│   ├── 06-available-jobs.png
+│   ├── 07-job-applications.png
+│   ├── 08-interview-details.png
+│   ├── 09-resume-analyzer.png
+│   ├── 10-dashboard.png
+│   ├── 11-resume-analysis-result.png
+│   └── 12-job-recommendations.png
+│
+├── .gitignore
+└── README.md
 ```
 
 ## Installation and Setup
@@ -104,23 +119,27 @@ git clone https://github.com/charishmasasanapuri-droid/SmartHire-AI-Powered-Job-
 
 ### 2. Install Frontend Dependencies
 
+Open a terminal and run:
+
 ```bash
-cd client
+cd SmartHire/client
 npm install
 ```
 
 ### 3. Install Backend Dependencies
 
-Open another terminal:
+Open another terminal and run:
 
 ```bash
-cd server
+cd SmartHire/server
 npm install
 ```
 
 ### 4. Configure Environment Variables
 
-Create a `.env` file inside the server folder.
+Create a `.env` file inside the `server` folder.
+
+Add the following variables:
 
 ```env
 PORT=5000
@@ -129,19 +148,23 @@ JWT_SECRET=your_jwt_secret
 GEMINI_API_KEY=your_api_key_if_required
 ```
 
-Use your own credentials. Never upload your `.env` file to GitHub.
+Replace the placeholder values with your own credentials.
+
+**Important:** Never upload your `.env` file or secret credentials to GitHub.
 
 ### 5. Run the Backend
 
+From the server directory, run:
+
 ```bash
-cd server
 npm run dev
 ```
 
 ### 6. Run the Frontend
 
+From the client directory, run:
+
 ```bash
-cd client
 npm run dev
 ```
 
@@ -169,17 +192,53 @@ Open the local frontend URL displayed in your terminal.
 
 ## Screenshots
 
-### Home Page
+### 1. Home Page
+
 ![Home](screenshots/01-home.png)
 
-### Registration
+### 2. User Registration
+
 ![Registration](screenshots/02-registration.png)
 
-### Login
+### 3. User Login
+
 ![Login](screenshots/03-login.png)
 
-### Dashboard
+### 4. Job Posting
+
+![Job Posting](screenshots/04-post-job.png)
+
+### 5. My Applications
+
+![My Applications](screenshots/05-my-applications.png)
+
+### 6. Available Jobs
+
+![Available Jobs](screenshots/06-available-jobs.png)
+
+### 7. Job Applications
+
+![Job Applications](screenshots/07-job-applications.png)
+
+### 8. Interview Details
+
+![Interview Details](screenshots/08-interview-details.png)
+
+### 9. Resume Analyzer
+
+![Resume Analyzer](screenshots/09-resume-analyzer.png)
+
+### 10. Dashboard
+
 ![Dashboard](screenshots/10-dashboard.png)
+
+### 11. Resume Analysis Result
+
+![Resume Analysis](screenshots/11-resume-analysis-result.png)
+
+### 12. Job Recommendations
+
+![Job Recommendations](screenshots/12-job-recommendations.png)
 
 ## Author
 
