@@ -167,6 +167,20 @@ Open the local frontend URL displayed in your terminal.
 - Enhanced analytics and reporting.
 - Mobile application support.
 
+## Screenshots
+
+### Home Page
+![Home](screenshots/01-home.png)
+
+### Registration
+![Registration](screenshots/02-registration.png)
+
+### Login
+![Login](screenshots/03-login.png)
+
+### Dashboard
+![Dashboard](screenshots/10-dashboard.png)
+
 ## Author
 
 **Project:** SmartHire – AI-Powered Job Portal
